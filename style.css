@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clock{
+    display: flex;
+}
+.clock div {
+    background-color:#562B08 ;
+    margin: 0.5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.clock div p {
+    background-color: black;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 45px;
+}
+
+
+.clock div h3 {
+    text-transform: uppercase;
+}
